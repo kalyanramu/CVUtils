@@ -8,7 +8,7 @@ import numpy as np
 from skimage import data, io
 import scipy.sparse
 from scipy.sparse import coo_matrix
-import pyamg
+#import pyamg
 import matplotlib.pyplot as plt
 
 import pdb
