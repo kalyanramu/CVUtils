@@ -1,0 +1,7 @@
+1. Run Bing 
+
+2. CLean up the file extensions in dataset folder
+python clean_file_ext.py --path ./dataset
+
+3. Initialize XML for all files with bounding box = complete image shape
+python initxml_image.py --input ./dataset --output ./outdata
