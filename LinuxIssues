@@ -1,0 +1,7 @@
+1. Spyder environment gives QOpenGLShader errors during startup (you get black screen)
+
+Solution: https://github.com/spyder-ide/spyder/issues/3226
+a) Add "from OpenGL import GL" into site-packages/spyder/app/start.py
+b) Also do pip install pyopengl
+
+2. 
